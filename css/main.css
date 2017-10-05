@@ -14,7 +14,7 @@ html {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 
   position: absolute;
-  transition:
+  transition: all 250ms linear;
 
 }
 
@@ -50,4 +50,5 @@ html {
 .polaroid:hover {
   transform: rotate(0deg);
   z-index: 10;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, .75)
 }
