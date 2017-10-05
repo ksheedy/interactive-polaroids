@@ -23,3 +23,16 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.polaroid:first-child {
+  transform: translate(190px, 100px) rotate(-12deg);
+}
+
+.polaroid:nth-child(2) {
+  transform: translate(290px, -30px) rotate(5deg);
+
+}
+
+.polaroid:last-child {
+  transform: translate(380px, -260px) rotate(33deg);
+}
